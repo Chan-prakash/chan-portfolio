@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
+:root {
+    --dark-primary: #1b1f24;
+    --light-primary: #12bdff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--dark-primary);
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+ul li {
+    margin-right: 30px;
+}
+
+ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: var(--light-primary);
+}
+
+.montserrat-uniquifier {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+body {
+    font-family: "Montserrat", sans-serif; 
+}
+
+button {
+    font-family: inherit;
+    padding: 10px 20px;
+    background-color: var(--dark-primary);
+    border: 1px solid var(--light-primary);
+    color: var(--light-primary);
+    border-radius: 5px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Add transition effect */
+}
+
+button:hover {
+    box-shadow: 0 8px 16px rgba(18, 189, 255, 0.4); /* Enhance shadow */
+    transform: translateY(-2px); /* Slightly move the button upwards */
+}
+
+.high{
+    color: var(--light-primary);
+    font-weight:bold;
+    font-size:  20px;
+
+}
+
+
+

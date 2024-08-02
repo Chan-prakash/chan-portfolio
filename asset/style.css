@@ -3,6 +3,7 @@
 :root {
     --dark-primary: #1b1f24;
     --light-primary: #12bdff;
+    --mont-font: 'Montserrat', sans-serif;
 }
 
 * {
@@ -38,18 +39,18 @@ ul li a:hover {
 }
 
 .montserrat-uniquifier {
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--mont-font);
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
 }
 
 body {
-    font-family: "Montserrat", sans-serif; 
+    font-family: var(--mont-font) ;
 }
 
 button {
-    font-family: inherit;
+    font-family:var(--mont-font);
     padding: 10px 20px;
     background-color: var(--dark-primary);
     border: 1px solid var(--light-primary);

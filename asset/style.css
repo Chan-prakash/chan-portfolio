@@ -25,7 +25,7 @@ ul {
     display: flex;
 }
 
-ul li {
+ header ul li {
     margin-right: 30px;
 }
 
@@ -36,6 +36,7 @@ ul li a {
 
 ul li a:hover {
     color: var(--light-primary);
+    cursor: pointer;
 }
 
 .montserrat-uniquifier {
@@ -49,7 +50,7 @@ body {
     font-family: var(--mont-font) ;
 }
 
-header.top {
+header button{
     font-family:var(--mont-font);
     padding: 10px 20px;
     background-color: var(--dark-primary);
@@ -57,11 +58,14 @@ header.top {
     color: var(--light-primary);
     border-radius: 5px;
     transition: box-shadow 0.3s ease, transform 0.3s ease; /* Add transition effect */
+    position: relative;
+    z-index: 10; /* Ensure buttons stay above the photo */
 }
 
-header.top:hover{
+header button:hover{
     box-shadow: 0 8px 16px rgba(18, 189, 255, 0.4); /* Enhance shadow */
     transform: translateY(-2px); /* Slightly move the button upwards */
+    cursor: pointer;
 }
 
 .high{
@@ -93,6 +97,7 @@ section.hero-section{
 .main-button:hover{
     box-shadow: 0 8px 16px rgba(18, 189, 255, 0.4); /* Enhance shadow */
     transform: translateY(-2px); /* Slightly move the button upwards */
+    cursor: pointer;
 }
 
 .hero-section__title{
@@ -104,10 +109,27 @@ section.hero-section{
     color: var(--light-primary);
 }
 
+
+
+main ul li{
+    margin-right: 20px;
+
+}
+main ul li a:hover{
+   color: var(--light-primary);
+   cursor: pointer;
+}
+
 .main_img {
     transform: translateY(-100px); /* Adjust the value to move the photo higher */
+    display: block; /* Ensure it's a block element if needed */
+    max-width: 100%; /* Ensure it doesn't exceed its container's width */
+    height: auto; /* Maintain aspect ratio */
+    z-index: 1; /* Ensure it doesn't interfere with hover effects */
     padding-left: 40px;
 }
+
+
 
 
 

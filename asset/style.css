@@ -60,12 +60,15 @@ header button{
     transition: box-shadow 0.3s ease, transform 0.3s ease; /* Add transition effect */
     position: relative;
     z-index: 10; /* Ensure buttons stay above the photo */
+    font-weight: 600;
 }
 
 header button:hover{
     box-shadow: 0 8px 16px rgba(18, 189, 255, 0.4); /* Enhance shadow */
     transform: translateY(-2px); /* Slightly move the button upwards */
     cursor: pointer;
+    background-color:var(--light-primary);
+    color: #fff;
 }
 
 .high{
@@ -92,20 +95,24 @@ section.hero-section{
     color: var(--light-primary);
     border-radius: 5px;
     transition: box-shadow 0.3s ease, transform 0.3s ease;
+    font-weight: 600;
+
 }
 
 .main-button:hover{
     box-shadow: 0 8px 16px rgba(18, 189, 255, 0.4); /* Enhance shadow */
     transform: translateY(-2px); /* Slightly move the button upwards */
     cursor: pointer;
+    background-color: var(--light-primary);
+    color: #fff;
+
 }
 
 .hero-section__title{
     font-size: 48px;
     font-weight:  900;
 }
-
-.title-sub{
+.hero-section__title > span{
     color: var(--light-primary);
 }
 
@@ -113,6 +120,8 @@ section.hero-section{
 
 main ul li{
     margin-right: 20px;
+    text-decoration: none;
+    display: flex;
 
 }
 main ul li a:hover{
@@ -128,6 +137,10 @@ main ul li a:hover{
     z-index: 1; /* Ensure it doesn't interfere with hover effects */
     padding-left: 40px;
 }
+
+
+
+
 
 
 

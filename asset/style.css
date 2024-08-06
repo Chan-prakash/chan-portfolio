@@ -3,6 +3,7 @@
 :root {
     --dark-primary: #1b1f24;
     --light-primary: #12bdff;
+    --secdark-primsry:#22282f;
     --mont-font: 'Montserrat', sans-serif;
 }
 
@@ -139,6 +140,61 @@ main ul li a:hover{
 }
 
 
+
+.third{
+    display:flex;
+    background-color:var(--secdark-primsry)  ;
+    padding: 60px;
+    color: #fff;
+}
+
+
+.third img {
+    border-radius: 50%;
+    border: 3px  solid; /* Change the color and width as needed */
+    border-color: var(--light-primary);
+    width: 400px; /* Adjust the size of the image */
+    height: 400px; /* Ensure the image is square */
+    object-fit: cover; /* Ensure the image fits within the circle */
+    box-shadow:0 0 15px 1px rgba(18, 189, 255, 1);
+}
+
+.second-img{
+    padding: 30px 60px;
+
+}
+
+.third-des{
+    margin-left: 100px;
+    padding-top: 200px;
+}
+
+
+#inc {
+   color: #fff;
+   font-size: 30px;
+   padding-bottom: 10px;
+
+}
+.aboutme {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Change this to center if you want center alignment */
+}
+
+.third-des ul {
+    padding-left: 0; /* Remove default padding */
+    list-style: none;
+}
+
+.third-des ul li {
+    color: #fff;
+    padding-bottom:10px; /* Add some spacing between list items */
+}
+
+.third-des li strong {
+    color: var(--light-primary);
+}
 
 
 

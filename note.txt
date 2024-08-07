@@ -3,8 +3,12 @@ If the hover effect is not working what u should do is the check in the inspect 
 what are the new app which I discover in the course ?
 1.font awesome....
 2.Google fonts....
-3. insepect -accessibility (contrast)....
+3.Insepect-accessibility (contrast)....
 4.inspect la top left corner la mobile view iruku.
 5.image optimizer  to reduce the size of the images.
 6.To ge the rounded image give the exact value in the height and width.
-7.
+7.css aboutme section mail tag underline it requires specifically need to be mentioned 
+8.text-align: for maintaing the text center
+9.justify-content:
+10.display:flex
+11.align-items

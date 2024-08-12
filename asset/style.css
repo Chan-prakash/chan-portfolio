@@ -220,7 +220,7 @@ main ul li a:hover{
     width:auto;
     margin-right: 5px;
 }
-
+/* animation content */
 .third-des .inc::before{
     content:" ";
     position: absolute;
@@ -271,23 +271,39 @@ main ul li a:hover{
     text-align: left;
     max-width: 300px;
     border-radius: 10px;
+ 
 }
 .service-content{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(300px,auto));
+    grid-template-columns: repeat(auto-fit,minmax(200px,auto));
     align-items: center;
     gap: 2.3rem;
     margin-top: 4.2rem;
 }
 
-.works-session-box >h4{
-    padding-bottom :10px;
+.Work-session > h4{
+    margin-bottom :20px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 20px;
 }
 
 .works-session-box:hover{
     box-shadow: 0 0 15px  1px var(--light-primary);
-
 }
+
+.works-session-box span{
+    padding-bottom: 10px;
+    display: inline-block;
+    
+ }
+
+/* here work-session is mandatory which specifically tell where to go*/
+
+.Work-session .title{  
+    font-weight: 600;
+    font-size: 30px;
+ }
 
 
 

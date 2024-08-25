@@ -26,21 +26,23 @@
 
       <div>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="#"> Services</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services"> Services</a></li>
+          <li><a href="#CONT">Contact</a></li>
         </ul>
       </div>
 
       <div>
-        <button id="charmer">Download CV</button>
+        <a href="images/resume.png" download>
+          <button type="button">DOWNLOAD CV</button>
+      </a>
+      
       </div>
     </header>
 
     <main>
-      <section class="hero-section">
+      <section id="home" class="hero-section" >
         <div>
           <h4>Hi There <span class="high">!</span></h4>
           <br />
@@ -80,8 +82,14 @@
           <br />
 
           <div>
-            <button class="main-button" href="#">Hire Me</button>
-            <button class="main-button" href="#">Download CV</button>
+            <a href="https://wa.me/918838984850" >
+              <button type="button" class="main-button">Hire me</button>
+          </a>
+          
+            <a href="images/resume.png" download>
+              <button type="button" class="main-button">DOWNLOAD CV</button>
+          </a>
+          
           </div>
         </div>
 
@@ -91,9 +99,9 @@
       </section>
 
       <!-- about me-->
-      <section class="third">
+      <section id="about" class="third">
         <div class="second-img">
-          <img src="images\portfolio-2.jpg" alt="chan pic" width="450" />
+          <img src="images\portfolio-2.jpg" alt="chan pic" width="450"/>
         </div>
         <div class="third-des">
           <div class="text-content">
@@ -126,7 +134,7 @@
         </div>
       </section>
 
-      <section class="Work-session">
+      <section id="services" class="Work-session">
         <h4 class="title">My Works</h4>
         <div class="service-content">
           <div class="works-session-box">
@@ -153,7 +161,7 @@
       </section>
 
       <!-- contact me-->
-      <section class="contact-section">
+      <section id="CONT"class="contact-section">
         <h4>Contact <span> Me</span></h4>
         <form>
           <input type="text" placeholder="Full Name" name="name" />

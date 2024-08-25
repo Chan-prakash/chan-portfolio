@@ -51,7 +51,7 @@ body {
     font-family: var(--mont-font) ;
 }
 
-header button{
+header button {
     font-family:var(--mont-font);
     padding: 10px 20px;
     background-color: var(--dark-primary);
@@ -62,6 +62,10 @@ header button{
     position: relative;
     z-index: 10; /* Ensure buttons stay above the photo */
     font-weight: 600;
+    outline:none;
+    
+  
+    
 }
 
 header button:hover{

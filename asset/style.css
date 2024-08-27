@@ -12,6 +12,11 @@
     padding: 0;
 }
 
+/* smooth*/
+html{
+    scroll-behavior: smooth;
+}
+
 header {
     background-color: var(--dark-primary);
     padding: 20px;
@@ -82,6 +87,12 @@ header button:hover{
     font-size:  20px;
 
 }
+   /* media frame work */
+@media screen {
+    
+}
+
+
 
 /*section hero page main*/
 section.hero-section{
@@ -120,6 +131,7 @@ section.hero-section{
 .hero-section__title > span{
     color: var(--light-primary);
 }
+
 
 
 
@@ -194,12 +206,7 @@ main ul li a:hover{
     color: var(--light-primary);
 }
 
-/*#inc > span {
-
-    color:var(--light-primary);
-    font-size: 30px;
-    font-weight: 900; 
-}*/
+/* Running text */
 
 .inc{
     position:relative;
@@ -207,6 +214,7 @@ main ul li a:hover{
     font-size: 2.5rem;
     padding:5px;
     color: var(--light-primary);
+    overflow: hidden;
 }
 .text-content{
     display: flex;
@@ -230,10 +238,11 @@ main ul li a:hover{
     height:100%;
     border-left:2px solid #fff;
     background: var(--secdark-primary);
-    animation: animateTXT 5s steps(15) infinite;
+    animation: animateTXT 6s steps(12) infinite;
     background:var(--secdark-primary);
-    font-weight: 800;
+    font-weight: 600;
     font-size:40px;
+    overflow: hidden;
     color:var(--light-primary);
 }
 
@@ -273,6 +282,7 @@ main ul li a:hover{
     border-radius: 10px;
  
 }
+
 .service-content{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(200px,auto));
@@ -303,6 +313,11 @@ main ul li a:hover{
 .Work-session .title{  
     font-weight: 600;
     font-size: 30px;
+ }
+ .Work-session .high1 {
+    font-weight: 600;
+    font-size: 30px;
+    color:var(--light-primary);
  }
 
  .contact-section{
@@ -365,6 +380,31 @@ footer{
 .contact-section div{
     padding-bottom: 20px;
 }
+
+/* media query */
+@media only screen and (max-width: 600px) {
+    body {
+      background-color:var(--dark-primary);
+    }
+
+    header{
+        flex-direction: column;
+        padding-top: 5px;
+        padding-bottom: 10px;
+        align-items: center;
+    }
+    
+
+
+    
+  }
+
+  
+
+
+
+
+
 
 
 

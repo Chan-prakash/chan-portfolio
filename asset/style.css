@@ -390,6 +390,11 @@ footer{
       max-width: 100%;
    
   }
+
+.list-header{
+  padding-top:10px;
+  padding-bottom:10px;
+}
   header > * {
     margin-bottom: 10px;
   }
@@ -428,6 +433,24 @@ section.hero-section{
   padding-left: 10px;
 
 } 
+.Work-session{
+  width: 425px;
+  padding-right: 0px;
+  padding-left: 40px;
+
+}
+.contact1{
+  width:425px;
+  background-color: var(--secdark-primary);
+  padding-top: 20px;
+  
+}
+
+footer{
+  width: 425px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
 
  
 }

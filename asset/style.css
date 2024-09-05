@@ -427,6 +427,14 @@ section.hero-section{
   flex-direction: column;
  }
 
+ .third-des{
+  margin-left:50px;
+  padding-top:50px;
+ }
+ .aboutme{
+  width: 400px;
+ }
+
 
 .second-img{
   padding-right: 10px;
@@ -443,7 +451,8 @@ section.hero-section{
   width:425px;
   background-color: var(--secdark-primary);
   padding-top: 20px;
-  
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 footer{
@@ -452,6 +461,14 @@ footer{
   padding-right: 20px;
 }
 
+.nrml_txt{
+  font-size:28px;
+  font-weight:600;
+}
+.inc{
+  font-size:28px;
+  font-weight:600;
+}
  
 }
 

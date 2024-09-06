@@ -427,8 +427,19 @@ section.hero-section{
   flex-direction: column;
  }
 
+ .third img{
+  width: 305px;
+  height: 305px;
+ 
+ }
+
+ .third .second-img{
+  width: 305px;
+  padding-left: 40px;
+ }
+
  .third-des{
-  margin-left:50px;
+  margin-left:25px;
   padding-top:50px;
  }
  .aboutme{
@@ -469,6 +480,10 @@ footer{
   font-size:28px;
   font-weight:600;
 }
+
+.Work-session .title{
+  text-align: center;
  
 }
 
+}

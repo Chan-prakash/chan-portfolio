@@ -83,7 +83,7 @@
 
           <div>
             <a href="https://wa.me/918838984850" >
-              <button type="button" class="main-button">Hire me</button>
+              <button type="button" class="main-button " target>Hire me</button>
           </a>
           
             <a href="images/resume.png" download>
@@ -160,29 +160,37 @@
         </div>
       </section>
 
-      <!-- contact me-->
-      <section id="CONT" class="contact-section">
-      <div class="contact1">
-        <h4>Contact <span> Me</span></h4>
-        <form>
-          <input type="text" placeholder="Full Name" name="name" />
-        </form>
-        <form>
-          <input type="text" placeholder="what's up " name="subject"/>
-        </form>
-        <form>
-          <textarea type="text" placeholder="Enter Briefly" name="details" resize="none" rows="5"></textarea>
-          
-        </form>
-        <div>
-          <button> Send a message</button>
-        </div>
-        
-      </div>
-      </section>
-    </main>
-  </body>
-  <footer>
-    <h4>Copyright &copy; - <a href="https://github.com/Chan-prakash" type="_blank"> Chan-prakash </a> All Rights are Reserved</h4>
-  </footer>
+     <!-- contact me -->
+<section id="CONT" class="contact-section">
+  <div class="contact1">
+    <h4>Contact <span>Me</span></h4>
+    <!-- Single form tag to wrap all inputs and button -->
+    <form action="https://api.web3forms.com/submit" method="post">
+      
+      <input type="text" placeholder="Full Name" name="name" />
+      <input type="text" placeholder="What's up" name="subject" />
+      <textarea
+        type="text"
+        placeholder="Enter Briefly"
+        name="details"
+        rows="5"
+      ></textarea>
+      <!-- Hidden input field for access key -->
+      <input type="hidden" name="access_key" value="f33899a9-88d2-443f-b59a-307e2de9fac9" />
+    
+      <!-- Submit button inside the form tag -->
+      <div>
+        <button type="submit">Send a message</button>
+      </div> 
+    
+    </form>
+  </div>
+</section>
+
+<footer>
+  <h4>
+    Copyright &copy; 
+    <a href="https://github.com/Chan-prakash" target="_blank">Chan-prakash</a> 
+    All Rights are Reserved
+  </h4>
 </html>

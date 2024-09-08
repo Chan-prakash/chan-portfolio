@@ -317,36 +317,53 @@ main ul li a:hover{
 }
 
 .contact-section{
-  background-color:var(--secdark-primary);
+  background-color: var(--secdark-primary);
   text-align: center;
   font: var(--mont-font);
   color: #fff;
+  padding-top: 20px;
+  
 }
 
-.contact-section > h4{
-   padding-top: 40px;
-   padding-bottom:20px;
-   font-size:20px;
-   font-weight:600;
+.contact-section > h4 {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-weight: 600;
+ 
 }
 
-.contact-section form > input,textarea{
-  background-color:darkgray;
-  outline:none;
-  padding:5px 10px;
-  width:25%;
-  border:none;
-  border-radius:2px;
+.contact1 > h4 {
+  padding-bottom: 20px;
+   text-align: center;
+  align-items: center;
+}
+
+.contact-section form > input,
+.contact-section form > textarea {
+  background-color: darkgray;
+  outline: none;
+  padding: 5px 10px;
+  width: 25%;
+  display: flex;
+  border: none;
+  border-radius: 2px;
   margin-bottom: 10px;
 }
+.contact-section form{
+  width: 100%; /* Ensures the form takes full width */
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
 
-.contact-section h4 > span{
+
+.contact-section h4 > span {
   color: var(--light-primary);
 }
 
-.contact-section button{
-
-  font-family:var(--mont-font);
+.contact-section button {
+  font-family: var(--mont-font);
   padding: 10px 20px;
   background-color: var(--dark-primary);
   border: 1px solid var(--light-primary);
@@ -354,9 +371,9 @@ main ul li a:hover{
   border-radius: 5px;
   transition: box-shadow 0.3s ease, transform 0.3s ease;
   font-weight: 600;
-  
 }
-.contact-section button:hover{
+
+.contact-section button:hover {
   box-shadow: 0 8px 16px rgba(18, 189, 255, 0.4); /* Enhance shadow */
   transform: translateY(-2px); /* Slightly move the button upwards */
   cursor: pointer;
@@ -364,18 +381,20 @@ main ul li a:hover{
   color: #fff;
 }
 
-     /* footer */
-footer{
-  background-color:var(--dark-primary);
-  color:darkgrey;
+footer {
+  background-color: var(--dark-primary);
+  color: darkgrey;
   text-align: center;
   padding-top: 20px;
-  font-size:12px;
-  
+  font-size: 12px;
 }
-.contact-section div{
+
+.contact-section div {
   padding-bottom: 20px;
 }
+
+
+
 
 /* media query */
 @media only screen and (max-width: 600px) {
@@ -405,12 +424,12 @@ footer{
 
 /*her0-sectiom*/  
 section.hero-section{
-    width:100%;
-    max-width:100%;
-    flex-direction: column;
+   width:100%;
+   max-width:100%;
+   flex-direction: column;
    background-color:var(--secdark-primary);
    padding-left: 20px;
-   padding-top: 20px;
+   padding-top: 40px;
    padding-right: 20px;
 
    }
@@ -462,10 +481,14 @@ section.hero-section{
   width:425px;
   background-color: var(--secdark-primary);
   padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.contact-section{
   padding-left: 20px;
   padding-right: 20px;
+  width: 425px;
 }
-
 footer{
   width: 425px;
   padding-left: 20px;

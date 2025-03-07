@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     let typingtxt = document.querySelector('.inc');
-    let designation = ['Frontend Developer', 'Java Developer', 'Solution Architect'];
+    let designation = ['Frontend Developer', 'UI&UX Developer'];
     let arrayIndex = 1;
 
     function ChangingTXT() {
